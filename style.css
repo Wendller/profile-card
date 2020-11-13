@@ -75,6 +75,10 @@ body {
   color: var(--neutral-gray);
 }
 
+#card-name h3 {
+  color: var(--primary-dark-blue);
+}
+
 #card-media {
   height: 20%;
   display: flex;
@@ -91,9 +95,10 @@ body {
   justify-content: space-around;
 }
 
-.media-info p {
+.media-info h4 {
   margin: 5px;
   font-weight: bold;
+  color: var(--primary-dark-blue);
 }
 
 .media-info span {
